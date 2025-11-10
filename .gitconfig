@@ -1,0 +1,2 @@
+[alias]
+disable-push = '!f() { git remote set-url --push "$1" PUSH_DISABLED; }; f'
