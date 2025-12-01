@@ -3,4 +3,7 @@ Desktop.ini
 Thumbs.db
 
 node_modules/
+
 **/logseq/bak/
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
