@@ -1,2 +1,8 @@
+[core]
+# Force to use Unicode NFC instead of NFD. Specifically for macOS
+precomposeunicode = true
+# Prevent (at least) Korean characters from being escaped
+quotepath = false
+
 [alias]
 disable-push = '!f() { git remote set-url --push "$1" PUSH_DISABLED; }; f'
